@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineSweeper</title>
+    <link rel="stylesheet" href="css/mine.css">
+</head>
+
+<body onload="onInit()">
+
+
+    <script src="js/mine.js">
+
+    </script>
+    <button onclick="restartGame()" class="restart">🙃</button>
+    <div class="btn">
+        <button onclick="setBoardSize(this)">Easy</button>
+        <button onclick="setBoardSize(this)">Medium</button>
+        <button onclick="setBoardSize(this)">Expert</button>
+        <p id="stopwatch">00:00:00</p>
+        <h2 class="gameOver hidden">Game Over, You LOST...</h2>
+    </div>
+    <table></table>
+</body>
+
+</html>
